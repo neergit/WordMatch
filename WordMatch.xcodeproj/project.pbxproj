@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0716CEA21ECDD01F0020826F /* GamePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716CEA11ECDD01F0020826F /* GamePlayer.m */; };
+		0716CEA51ECDD40C0020826F /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 0716CEA41ECDD40C0020826F /* Game.m */; };
+		075041D01ECDAA8C00D1F69F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 075041C31ECDAA8C00D1F69F /* AppDelegate.m */; };
+		075041D11ECDAA8C00D1F69F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 075041C41ECDAA8C00D1F69F /* main.m */; };
+		075041D21ECDAA8C00D1F69F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075041C71ECDAA8C00D1F69F /* GameViewController.m */; };
+		075041D31ECDAA8C00D1F69F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075041CA1ECDAA8C00D1F69F /* Assets.xcassets */; };
+		075041D51ECDAA8C00D1F69F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075041CE1ECDAA8C00D1F69F /* LaunchScreen.storyboard */; };
+		075041D61ECDAA8C00D1F69F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075041CF1ECDAA8C00D1F69F /* Main.storyboard */; };
+		075041DC1ECDAB1C00D1F69F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075041DB1ECDAB1C00D1F69F /* Default-568h@2x.png */; };
+		075041DE1ECDAB5A00D1F69F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075041DD1ECDAB5A00D1F69F /* Info.plist */; };
+		075041E01ECDAC4A00D1F69F /* WordsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075041DF1ECDAC4A00D1F69F /* WordsList.plist */; };
+		0752DEA91ED420D600F764DB /* TimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0752DEA81ED420D600F764DB /* TimerView.m */; };
+		07693DA71ED2AF7300D9CE07 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07693DA61ED2AF7300D9CE07 /* GameManager.m */; };
+		07693DAE1ED2C00900D9CE07 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 07693DAD1ED2C00900D9CE07 /* Util.m */; };
+		07693DB11ED2C95500D9CE07 /* WelcomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07693DB01ED2C95500D9CE07 /* WelcomeScreenViewController.m */; };
+		07693DB41ED2CE2000D9CE07 /* ScoreCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07693DB31ED2CE2000D9CE07 /* ScoreCardViewController.m */; };
+		07693DBA1ED3224300D9CE07 /* playIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 07693DB91ED3224300D9CE07 /* playIcon.png */; };
+		077EB45B1ED6B634002EE1BE /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 077EB45A1ED6B634002EE1BE /* home.png */; };
+		077EB4721ED6EBB0002EE1BE /* DesignableButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 077EB46F1ED6EBB0002EE1BE /* DesignableButtons.m */; };
+		077EB4731ED6EBB0002EE1BE /* DesignableLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 077EB4711ED6EBB0002EE1BE /* DesignableLabels.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0716CEA01ECDD01F0020826F /* GamePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayer.h; sourceTree = "<group>"; };
+		0716CEA11ECDD01F0020826F /* GamePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayer.m; sourceTree = "<group>"; };
+		0716CEA31ECDD40C0020826F /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		0716CEA41ECDD40C0020826F /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		075041A61ECDA8F500D1F69F /* WordMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		075041C21ECDAA8C00D1F69F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		075041C31ECDAA8C00D1F69F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		075041C41ECDAA8C00D1F69F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		075041C61ECDAA8C00D1F69F /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		075041C71ECDAA8C00D1F69F /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		075041CA1ECDAA8C00D1F69F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		075041CE1ECDAA8C00D1F69F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		075041CF1ECDAA8C00D1F69F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		075041DB1ECDAB1C00D1F69F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		075041DD1ECDAB5A00D1F69F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075041DF1ECDAC4A00D1F69F /* WordsList.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = WordsList.plist; sourceTree = "<group>"; };
+		0752DEA71ED420D600F764DB /* TimerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerView.h; sourceTree = "<group>"; };
+		0752DEA81ED420D600F764DB /* TimerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerView.m; sourceTree = "<group>"; };
+		07693DA51ED2AF7300D9CE07 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		07693DA61ED2AF7300D9CE07 /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
+		07693DAC1ED2C00900D9CE07 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		07693DAD1ED2C00900D9CE07 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		07693DAF1ED2C95500D9CE07 /* WelcomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeScreenViewController.h; sourceTree = "<group>"; };
+		07693DB01ED2C95500D9CE07 /* WelcomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeScreenViewController.m; sourceTree = "<group>"; };
+		07693DB21ED2CE2000D9CE07 /* ScoreCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreCardViewController.h; sourceTree = "<group>"; };
+		07693DB31ED2CE2000D9CE07 /* ScoreCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreCardViewController.m; sourceTree = "<group>"; };
+		07693DB91ED3224300D9CE07 /* playIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playIcon.png; sourceTree = "<group>"; };
+		077EB45A1ED6B634002EE1BE /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		077EB46E1ED6EBB0002EE1BE /* DesignableButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignableButtons.h; sourceTree = "<group>"; };
+		077EB46F1ED6EBB0002EE1BE /* DesignableButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignableButtons.m; sourceTree = "<group>"; };
+		077EB4701ED6EBB0002EE1BE /* DesignableLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignableLabels.h; sourceTree = "<group>"; };
+		077EB4711ED6EBB0002EE1BE /* DesignableLabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignableLabels.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		075041A31ECDA8F500D1F69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0716CE9F1ECDCFFB0020826F /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				0716CEA01ECDD01F0020826F /* GamePlayer.h */,
+				0716CEA11ECDD01F0020826F /* GamePlayer.m */,
+				0716CEA31ECDD40C0020826F /* Game.h */,
+				0716CEA41ECDD40C0020826F /* Game.m */,
+				07693DA51ED2AF7300D9CE07 /* GameManager.h */,
+				07693DA61ED2AF7300D9CE07 /* GameManager.m */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		0750419D1ECDA8F500D1F69F = {
+			isa = PBXGroup;
+			children = (
+				075041A81ECDA8F500D1F69F /* WordMatch */,
+				075041A71ECDA8F500D1F69F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		075041A71ECDA8F500D1F69F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075041A61ECDA8F500D1F69F /* WordMatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		075041A81ECDA8F500D1F69F /* WordMatch */ = {
+			isa = PBXGroup;
+			children = (
+				075041C01ECDAA8C00D1F69F /* Classess */,
+				075041C81ECDAA8C00D1F69F /* Resources */,
+			);
+			path = WordMatch;
+			sourceTree = "<group>";
+		};
+		075041C01ECDAA8C00D1F69F /* Classess */ = {
+			isa = PBXGroup;
+			children = (
+				0716CE9F1ECDCFFB0020826F /* DataModels */,
+				075041C11ECDAA8C00D1F69F /* App */,
+				0752DEA61ED420A200F764DB /* View */,
+				07693DAB1ED2BFEA00D9CE07 /* Utility */,
+				075041C51ECDAA8C00D1F69F /* View Controllers */,
+			);
+			path = Classess;
+			sourceTree = "<group>";
+		};
+		075041C11ECDAA8C00D1F69F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				075041C21ECDAA8C00D1F69F /* AppDelegate.h */,
+				075041C31ECDAA8C00D1F69F /* AppDelegate.m */,
+				075041C41ECDAA8C00D1F69F /* main.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		075041C51ECDAA8C00D1F69F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				075041C61ECDAA8C00D1F69F /* GameViewController.h */,
+				075041C71ECDAA8C00D1F69F /* GameViewController.m */,
+				07693DAF1ED2C95500D9CE07 /* WelcomeScreenViewController.h */,
+				07693DB01ED2C95500D9CE07 /* WelcomeScreenViewController.m */,
+				07693DB21ED2CE2000D9CE07 /* ScoreCardViewController.h */,
+				07693DB31ED2CE2000D9CE07 /* ScoreCardViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		075041C81ECDAA8C00D1F69F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				075041C91ECDAA8C00D1F69F /* Images */,
+				075041CB1ECDAA8C00D1F69F /* Others */,
+				075041CD1ECDAA8C00D1F69F /* StoryBoards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		075041C91ECDAA8C00D1F69F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				07693DB91ED3224300D9CE07 /* playIcon.png */,
+				077EB45A1ED6B634002EE1BE /* home.png */,
+				075041DB1ECDAB1C00D1F69F /* Default-568h@2x.png */,
+				075041CA1ECDAA8C00D1F69F /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		075041CB1ECDAA8C00D1F69F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				075041DF1ECDAC4A00D1F69F /* WordsList.plist */,
+				075041DD1ECDAB5A00D1F69F /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		075041CD1ECDAA8C00D1F69F /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				075041CE1ECDAA8C00D1F69F /* LaunchScreen.storyboard */,
+				075041CF1ECDAA8C00D1F69F /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		0752DEA61ED420A200F764DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				077EB46E1ED6EBB0002EE1BE /* DesignableButtons.h */,
+				077EB46F1ED6EBB0002EE1BE /* DesignableButtons.m */,
+				077EB4701ED6EBB0002EE1BE /* DesignableLabels.h */,
+				077EB4711ED6EBB0002EE1BE /* DesignableLabels.m */,
+				0752DEA71ED420D600F764DB /* TimerView.h */,
+				0752DEA81ED420D600F764DB /* TimerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07693DAB1ED2BFEA00D9CE07 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				07693DAC1ED2C00900D9CE07 /* Util.h */,
+				07693DAD1ED2C00900D9CE07 /* Util.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		075041A51ECDA8F500D1F69F /* WordMatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075041BD1ECDA8F500D1F69F /* Build configuration list for PBXNativeTarget "WordMatch" */;
+			buildPhases = (
+				075041A21ECDA8F500D1F69F /* Sources */,
+				075041A31ECDA8F500D1F69F /* Frameworks */,
+				075041A41ECDA8F500D1F69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordMatch;
+			productName = WordMatch;
+			productReference = 075041A61ECDA8F500D1F69F /* WordMatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0750419E1ECDA8F500D1F69F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Neeraj Chandra";
+				TargetAttributes = {
+					075041A51ECDA8F500D1F69F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8TVWT63VY2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 075041A11ECDA8F500D1F69F /* Build configuration list for PBXProject "WordMatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0750419D1ECDA8F500D1F69F;
+			productRefGroup = 075041A71ECDA8F500D1F69F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				075041A51ECDA8F500D1F69F /* WordMatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		075041A41ECDA8F500D1F69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075041D51ECDAA8C00D1F69F /* LaunchScreen.storyboard in Resources */,
+				077EB45B1ED6B634002EE1BE /* home.png in Resources */,
+				075041D31ECDAA8C00D1F69F /* Assets.xcassets in Resources */,
+				075041DC1ECDAB1C00D1F69F /* Default-568h@2x.png in Resources */,
+				075041DE1ECDAB5A00D1F69F /* Info.plist in Resources */,
+				075041E01ECDAC4A00D1F69F /* WordsList.plist in Resources */,
+				07693DBA1ED3224300D9CE07 /* playIcon.png in Resources */,
+				075041D61ECDAA8C00D1F69F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		075041A21ECDA8F500D1F69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0752DEA91ED420D600F764DB /* TimerView.m in Sources */,
+				0716CEA51ECDD40C0020826F /* Game.m in Sources */,
+				07693DB41ED2CE2000D9CE07 /* ScoreCardViewController.m in Sources */,
+				07693DA71ED2AF7300D9CE07 /* GameManager.m in Sources */,
+				075041D21ECDAA8C00D1F69F /* GameViewController.m in Sources */,
+				075041D11ECDAA8C00D1F69F /* main.m in Sources */,
+				077EB4731ED6EBB0002EE1BE /* DesignableLabels.m in Sources */,
+				0716CEA21ECDD01F0020826F /* GamePlayer.m in Sources */,
+				07693DB11ED2C95500D9CE07 /* WelcomeScreenViewController.m in Sources */,
+				075041D01ECDAA8C00D1F69F /* AppDelegate.m in Sources */,
+				07693DAE1ED2C00900D9CE07 /* Util.m in Sources */,
+				077EB4721ED6EBB0002EE1BE /* DesignableButtons.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		075041BB1ECDA8F500D1F69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		075041BC1ECDA8F500D1F69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		075041BE1ECDA8F500D1F69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8TVWT63VY2;
+				INFOPLIST_FILE = "$(SRCROOT)/WordMatch/Resources/Others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neerajchandra.WordMatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		075041BF1ECDA8F500D1F69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8TVWT63VY2;
+				INFOPLIST_FILE = "$(SRCROOT)/WordMatch/Resources/Others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neerajchandra.WordMatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		075041A11ECDA8F500D1F69F /* Build configuration list for PBXProject "WordMatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075041BB1ECDA8F500D1F69F /* Debug */,
+				075041BC1ECDA8F500D1F69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075041BD1ECDA8F500D1F69F /* Build configuration list for PBXNativeTarget "WordMatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075041BE1ECDA8F500D1F69F /* Debug */,
+				075041BF1ECDA8F500D1F69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0750419E1ECDA8F500D1F69F /* Project object */;
+}
